@@ -8,7 +8,7 @@ export default function Todolist() {
   function handleInputChange(e) {
     setNewTodo(e.target.value);
   }
-
+//add todo functionality 
   function addTodo() {
     if (newTodo.trim() !== "") {
       setTodos([
